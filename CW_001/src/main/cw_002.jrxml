@@ -1,0 +1,143 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="cw_002" language="java" columnCount="1" pageWidth="595" pageHeight="842" orientation="Landscape" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a0681f58-85dc-44c1-b9fd-19df9ee2856d">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<query language="SQL"><![CDATA[select * from cw_001.student_marks]]></query>
+	<field name="S_ID" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="S_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="S_ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="Year_" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Year_"/>
+		<property name="com.jaspersoft.studio.field.label" value="Year_"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="Religion_" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Religion_"/>
+		<property name="com.jaspersoft.studio.field.label" value="Religion_"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="History_" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="History_"/>
+		<property name="com.jaspersoft.studio.field.label" value="History_"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="maths_" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="maths_"/>
+		<property name="com.jaspersoft.studio.field.label" value="maths_"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="language_" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="language_"/>
+		<property name="com.jaspersoft.studio.field.label" value="language_"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="science" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="science"/>
+		<property name="com.jaspersoft.studio.field.label" value="science"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="english" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="english"/>
+		<property name="com.jaspersoft.studio.field.label" value="english"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="bukect_i" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="bukect_i"/>
+		<property name="com.jaspersoft.studio.field.label" value="bukect_i"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="bukect_ii" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="bukect_ii"/>
+		<property name="com.jaspersoft.studio.field.label" value="bukect_ii"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<field name="bukect_iii" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="bukect_iii"/>
+		<property name="com.jaspersoft.studio.field.label" value="bukect_iii"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student_marks"/>
+	</field>
+	<group name="S_ID">
+		<expression><![CDATA[$F{S_ID}]]></expression>
+	</group>
+	<group name="Year_">
+		<expression><![CDATA[$F{Year_}]]></expression>
+	</group>
+	<group name="Religion_">
+		<expression><![CDATA[$F{Religion_}]]></expression>
+	</group>
+	<group name="History_">
+		<expression><![CDATA[$F{History_}]]></expression>
+	</group>
+	<group name="maths_">
+		<expression><![CDATA[$F{maths_}]]></expression>
+	</group>
+	<group name="language_">
+		<expression><![CDATA[$F{language_}]]></expression>
+	</group>
+	<group name="science">
+		<expression><![CDATA[$F{science}]]></expression>
+	</group>
+	<group name="english">
+		<expression><![CDATA[$F{english}]]></expression>
+	</group>
+	<group name="bukect_i">
+		<expression><![CDATA[$F{bukect_i}]]></expression>
+	</group>
+	<group name="bukect_ii">
+		<expression><![CDATA[$F{bukect_ii}]]></expression>
+	</group>
+	<group name="bukect_iii">
+		<expression><![CDATA[$F{bukect_iii}]]></expression>
+	</group>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="staticText" uuid="0114ba2f-7155-4c86-a8db-0449644961a6" x="90" y="20" width="350" height="30" fontName="Arial Black" fontSize="20.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[School mangemmt system]]></text>
+		</element>
+	</title>
+	<pageHeader height="35" splitType="Stretch"/>
+	<columnHeader height="41" splitType="Stretch">
+		<element kind="staticText" uuid="d3a18105-bfcd-402a-882f-3aa99c155219" x="0" y="0" width="100" height="30" bold="true" hTextAlign="Left">
+			<text><![CDATA[Student ID]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="02f68d89-0e64-4d1a-97fd-50c04a2ec07f"/>
+		</element>
+		<element kind="staticText" uuid="b8452347-e739-4975-b462-6e7811803406" x="160" y="0" width="100" height="30" italic="false" bold="true" hTextAlign="Left">
+			<text><![CDATA[Year/semester]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="eb9c3028-4ee0-48a8-9c7b-8e7f64e82e30"/>
+		</element>
+		<element kind="staticText" uuid="32307fd4-6a6d-4e53-9393-4a3f7e92c9b6" x="371" y="0" width="100" height="30" bold="true" hTextAlign="Left">
+			<text><![CDATA[Total]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="99dd36a3-747f-4f13-9c9e-99c9aca4454e"/>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="53" splitType="Stretch">
+			<element kind="textField" uuid="94c1604c-d12d-43a9-97a5-bf4e87054f8c" x="0" y="10" width="100" height="30">
+				<expression><![CDATA[$F{S_ID}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="02f68d89-0e64-4d1a-97fd-50c04a2ec07f"/>
+			</element>
+			<element kind="textField" uuid="bd1f3e03-9c54-43f2-83c7-54f96ee87b2c" x="160" y="10" width="100" height="30">
+				<expression><![CDATA[$F{Year_}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="eb9c3028-4ee0-48a8-9c7b-8e7f64e82e30"/>
+			</element>
+			<element kind="textField" uuid="782a68f4-67c6-4c61-9236-7ad201ca5f3d" x="370" y="10" width="100" height="30">
+				<expression><![CDATA[$F{Religion_} + $F{History_}  +  $F{maths_}  + $F{language_} + $F{science} + $F{english} + $F{bukect_i} + $F{bukect_ii} + $F{bukect_iii}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="99dd36a3-747f-4f13-9c9e-99c9aca4454e"/>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="1" splitType="Stretch"/>
+	<pageFooter height="1" splitType="Stretch"/>
+	<summary height="2" splitType="Stretch"/>
+</jasperReport>
